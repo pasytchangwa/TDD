@@ -21,7 +21,7 @@ describe Solver do
     end
 
     it 'raises an exception for negative integer' do
-      expect { @solver.factorial(-5) }.to raise_exception an_instance_of(StandrdError)
+      expect { @solver.factorial(-5) }.to raise_exception an_instance_of(StandardError)
     end
   end
 
@@ -49,4 +49,3 @@ describe Solver do
     end
   end
 end
-
